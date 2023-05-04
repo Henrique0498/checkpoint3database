@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3E9C7DF-B094-25F8-66EB-59C2D8293D7B" name="TB_ACS_IDIOMAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 00:51:21 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

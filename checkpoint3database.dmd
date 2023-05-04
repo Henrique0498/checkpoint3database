@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="checkpoint3database" id="A76B94EE-F0E3-7652-AE64-03EBDB9D065C" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 00:44:44 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A76B94EE-F0E3-7652-AE64-03EBDB9D065C</designId>
+</OSDM_Design>

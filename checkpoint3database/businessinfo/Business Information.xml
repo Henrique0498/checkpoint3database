@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="31BFE26D-B289-AC50-6700-9C00CAD1FB72">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 00:44:44 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

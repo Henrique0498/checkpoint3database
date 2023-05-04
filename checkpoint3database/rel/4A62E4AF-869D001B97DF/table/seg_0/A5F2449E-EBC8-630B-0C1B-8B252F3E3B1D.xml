@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5F2449E-EBC8-630B-0C1B-8B252F3E3B1D" name="TB_ACS_CERTIFICADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 00:57:19 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_certificado" id="72A7821B-6D69-A333-DD73-B86941E615D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:15:47 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ACS_INSTITUICAO_id_instituicao" id="B5E7FCD2-5E45-4B95-4AE3-FB509DC4FBFB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:38:28 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB25632B-4608-DA40-8253-FE51B289ED59" referredColumn="E919F944-776B-7A22-84E4-2D716C12E9E2"/>
+</associations>
+</Column>
+<Column name="nome_certificado" id="61EDED43-93E2-1689-6BFD-905006572645">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:13:53 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio" id="F02247C5-2A47-131A-074E-B328A3503177">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:49:09 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_expiracao" id="820FF530-0309-5F6C-0D37-65C7887CDFAD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:49:09 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ACS_USER_id_user" id="0B5FAA1E-7BB2-CC49-5569-1A3786EBEBE4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:50:02 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="985D21E4-2700-E90E-BD90-5C2B41467285" referredColumn="52400EFA-A5C9-E3A3-3FF9-9FE514AA5458"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89C6C6B4-2CFB-F11B-256C-B2FF426E35B0" name="tb_acs_certificado_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:15:47 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72A7821B-6D69-A333-DD73-B86941E615D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CAD2D4F-29BE-808F-0E04-11BDF1C8D607" name="TB_ACS_CERTIFICADO_TB_ACS_INSTITUICAO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:38:28 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5E7FCD2-5E45-4B95-4AE3-FB509DC4FBFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="812490FD-635B-E3E0-E90D-BAE01078F7DD" name="TB_ACS_CERTIFICADO_TB_ACS_USER_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-04 01:50:02 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5FAA1E-7BB2-CC49-5569-1A3786EBEBE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
