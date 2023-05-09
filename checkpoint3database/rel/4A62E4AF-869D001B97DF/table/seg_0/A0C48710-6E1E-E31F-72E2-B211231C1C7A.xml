@@ -22,6 +22,18 @@
 <colAssociation fkAssociation="55D93D43-C96B-1429-A604-34CCF02F39C9" referredColumn="52400EFA-A5C9-E3A3-3FF9-9FE514AA5458"/>
 </associations>
 </Column>
+<Column name="texto_sobre" id="6E0FF8EA-9A1C-6401-2D52-0B9ED549F4CA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-09 22:24:37 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1ABDF391-8FC2-045E-2EF3-972A8138127F" name="TB_ACS_SOBRE_TB_ACS_USER_FK">
