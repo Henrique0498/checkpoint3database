@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B79DD294-E32F-D16D-5B28-688DB8D73AE4" containerWithKeyObject="D98532EB-A529-EE9E-D142-C251828B2478" localFKIndex="0391BF0B-53CC-9912-4DDC-0994DF2A62AD" name="TB_ACS_RELACAO_CURSOS_CONHECIMENTO_TB_ACS_CURSOS_FK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:17:35 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<referredTableLongName>TB_ACS_CURSOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C84671B4-0FA6-5FBD-ABC9-07CE382DA975</referredTableID>
+<keyObject>153A846E-FDF3-44F2-80D7-B82993874BC4</keyObject>
+<referredKeyID>153A846E-FDF3-44F2-80D7-B82993874BC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cursos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -7,4 +7,52 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cursos" id="352DACC7-80F0-A32F-60D2-CDAD71B5BFA5">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:43 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_cursos" id="68E8F54D-D2CC-5DAF-EEE1-8B7F4888FD03">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:22:14 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carga_horaria_cursos" id="45787937-B894-0141-8FC5-DA71CA8EBAB5">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:25:04 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="153A846E-FDF3-44F2-80D7-B82993874BC4" name="TB_ACS_CURSOS_PK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:43 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="352DACC7-80F0-A32F-60D2-CDAD71B5BFA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

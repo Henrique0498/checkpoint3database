@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0B44C2F-0F51-E9E0-883C-FA965AFFBDA4" name="TB_ACS_EXPERIENCIA">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-05-04 00:54:45 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="331A0B72-00F6-9FA5-20B6-ACC02D61DC0B" name="TB_ACS_HABILIDADES">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:25:58 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TB_ACS_USER_id_user" id="236072C6-EB5B-1D88-5802-3B9A65CB17DF">
+<Column name="TB_ACS_USER_id_user" id="F97D52FC-FC2D-6456-587A-4ABC98173D1F">
 <createdBy>hlope</createdBy>
-<createdTime>2023-05-09 13:52:29 UTC</createdTime>
+<createdTime>2023-05-09 18:26:46 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6862F7C6-AF94-C337-2829-655C1F671982" referredColumn="52400EFA-A5C9-E3A3-3FF9-9FE514AA5458"/>
+<colAssociation fkAssociation="4476389C-7059-474F-D70B-F26E0EFA8EA1" referredColumn="52400EFA-A5C9-E3A3-3FF9-9FE514AA5458"/>
 </associations>
 </Column>
-<Column name="TB_ACS_INSTITUICAO_id_instituicao" id="3C04F340-3B59-1B88-2FD7-359A5ED823F5">
+<Column name="TB_ACS_CONHECIMENTO_id_conhecimento" id="37A10AC3-6A42-B38D-A666-C1E738C64971">
 <createdBy>hlope</createdBy>
-<createdTime>2023-05-09 13:52:36 UTC</createdTime>
+<createdTime>2023-05-09 18:26:56 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,29 +33,29 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E4DC11D6-330F-F96F-120A-EFBB0E1A810F" referredColumn="E919F944-776B-7A22-84E4-2D716C12E9E2"/>
+<colAssociation fkAssociation="FDC27B67-3EC2-9139-D178-F18B8EB145EE" referredColumn="956D91AA-E5D1-4B4C-1810-F0742C40E6FC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E28629B9-0909-C5E5-0292-663979A8D51F" name="TB_ACS_EXPERIENCIA_TB_ACS_USER_FK">
+<ind_PK_UK id="AE1EF50E-306E-9BD4-CBBC-58521A3C938A" name="TB_ACS_HABILIDADES_TB_ACS_USER_FK">
 <createdBy>hlope</createdBy>
-<createdTime>2023-05-09 13:52:29 UTC</createdTime>
+<createdTime>2023-05-09 18:26:46 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="236072C6-EB5B-1D88-5802-3B9A65CB17DF"/>
+<colUsage columnID="F97D52FC-FC2D-6456-587A-4ABC98173D1F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="60641BBC-A872-6372-11F6-4DFE6A07A6C8" name="TB_ACS_EXPERIENCIA_TB_ACS_INSTITUICAO_FK">
+<ind_PK_UK id="D065C448-A42A-BAEB-0305-1A33C12B3451" name="TB_ACS_HABILIDADES_TB_ACS_CONHECIMENTO_FK">
 <createdBy>hlope</createdBy>
-<createdTime>2023-05-09 13:52:36 UTC</createdTime>
+<createdTime>2023-05-09 18:26:56 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3C04F340-3B59-1B88-2FD7-359A5ED823F5"/>
+<colUsage columnID="37A10AC3-6A42-B38D-A666-C1E738C64971"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -7,4 +7,41 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idiomas" id="0F3C4D84-2296-7855-B4AD-FE1AF90D3ADD">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 17:22:18 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_idiomas" id="A212B2C0-68D5-770C-4DCB-AC63E3E20C61">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:20:08 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B5C44F0-6ABD-E5EB-22A6-914AC58C8239" name="TB_ACS_IDIOMAS_PK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 17:22:34 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3C4D84-2296-7855-B4AD-FE1AF90D3ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

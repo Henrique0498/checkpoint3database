@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92D7285C-B4A3-5A87-0F30-4CF606465120" name="TB_ACS_INSTITUICAO">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-05-04 00:59:02 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40ADC6CF-A8F6-5778-2422-4D66C7A741E9" name="TB_ACS_CONHECIMENTO">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 17:56:18 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
-<ordsAlias>table_11</ordsAlias>
+<ordsAlias>table_12</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_instituicao" id="E919F944-776B-7A22-84E4-2D716C12E9E2">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-05-04 01:17:35 UTC</createdTime>
+<Column name="id_conhecimento" id="956D91AA-E5D1-4B4C-1810-F0742C40E6FC">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:25:34 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome_instituicao" id="3E3BB585-92BE-95D1-421E-62064A957597">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-05-04 01:29:06 UTC</createdTime>
+<Column name="nome_conhecimento" id="EF84A23E-C9DC-978D-5F23-8FB41B9680CF">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:27:44 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="71EE0FBE-46E1-EFB3-A6E7-BF8EBD48AD39" name="tb_acs_instituicao_pk">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-05-04 01:17:35 UTC</createdTime>
+<ind_PK_UK id="601D84F7-985B-040B-4330-9B318765DE65" name="TB_ACS_CONHECIMENTO_PK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:25:34 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E919F944-776B-7A22-84E4-2D716C12E9E2"/>
+<colUsage columnID="956D91AA-E5D1-4B4C-1810-F0742C40E6FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
