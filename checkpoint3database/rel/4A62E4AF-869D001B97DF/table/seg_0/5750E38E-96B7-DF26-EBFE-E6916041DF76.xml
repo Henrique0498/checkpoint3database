@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5750E38E-96B7-DF26-EBFE-E6916041DF76" name="TB_ACS_CURSOINST">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5750E38E-96B7-DF26-EBFE-E6916041DF76" name="TB_ACS_RELACAO_USUARIO_CURSOS">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-05-04 01:05:59 UTC</createdTime>
 <ownerDesignName>checkpoint3database</ownerDesignName>
@@ -7,4 +7,56 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_ACS_USER_id_user" id="F2E7989F-7E3D-DAEA-1ABC-A7EA05A2BF4E">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:50 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3500CB6B-90E4-0681-4502-39F99E7808D0" referredColumn="52400EFA-A5C9-E3A3-3FF9-9FE514AA5458"/>
+</associations>
+</Column>
+<Column name="TB_ACS_CURSOS_id_cursos" id="10E5435C-C7C7-BE18-418D-C709BC29724D">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:56 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E0B9968-AC9D-1376-4C3D-9812086C3886" referredColumn="352DACC7-80F0-A32F-60D2-CDAD71B5BFA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="232FE531-39FE-75BD-EE90-AE1964E7C496" name="TB_ACS_CURSO_RELACAO_TB_ACS_USER_FK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:50 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2E7989F-7E3D-DAEA-1ABC-A7EA05A2BF4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F56EF70C-AC2A-7875-2188-FE6C6E0F6773" name="TB_ACS_CURSO_RELACAO_TB_ACS_CURSOS_FK">
+<createdBy>hlope</createdBy>
+<createdTime>2023-05-09 18:04:56 UTC</createdTime>
+<ownerDesignName>checkpoint3database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10E5435C-C7C7-BE18-418D-C709BC29724D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
